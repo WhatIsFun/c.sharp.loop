@@ -10,25 +10,37 @@
                 
             }
             Console.WriteLine("");*/
-            string st = "*";
+            
+            // test Star pattern
 
-            for (int i = 1; i < 4; i++)
+            for (int i = 1; i < 8; ++i)
             {
-                Console.WriteLine("*");
-                st += i;
-                if (i == 4)
+                for (int j = 1; j < i; ++j)
                 {
-                    Console.WriteLine(" ");
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+
+                /*if (i == 8)
+                {
+                    for (int i = 8; i < 1; --i)
+                    {
+                        for (int j = 8; j < i; --j)
+                        {
+                            Console.Write("*");
+                        }
+                        Console.WriteLine();
+                        Console.WriteLine(" ");
                     st += "*";
 
                     if (i == 1)
                     {
                         Console.WriteLine("*****");
-                    }
+                    }*/
 
 
 
-                }
+            
 
 
             }
