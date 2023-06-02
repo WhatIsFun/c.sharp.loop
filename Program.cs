@@ -11,29 +11,37 @@
             }
             Console.WriteLine("");*/
             
-            // test Star pattern
+            // test Star pattern part 1
+            //*
+            //**
+            //***
+            //****
+            //*****
 
-            for (int i = 1; i < 8; ++i)
+            for (int i = 1; i <= 6; ++i)
             {
-                for (int j = 1; j < i; ++j)
+                for (int j = 1; j <= i; ++j)
                 {
                     Console.Write("*");
                 }
                 Console.WriteLine();
 
-                /*if (i == 8)
+                //Part 2  
+                if (i == 6)
                 {
-                    for (int i = 8; i < 1; --i)
+                    Console.WriteLine("GOOD");
+                }
+                    /*for (int i = 8; i < 1; --i)
                     {
                         for (int j = 8; j < i; --j)
                         {
                             Console.Write("*");
                         }
-                        Console.WriteLine();
-                        Console.WriteLine(" ");
-                    st += "*";
+                        Console.WriteLine();*/
+                        
+                    
 
-                    if (i == 1)
+                    /*if (i == 1)
                     {
                         Console.WriteLine("*****");
                     }*/
