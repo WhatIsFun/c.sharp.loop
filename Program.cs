@@ -27,14 +27,48 @@
             }*/
 
             //Do - While Loop
-            int a = 1;
+            /*int a = 1;
             do
             {
                 Console.WriteLine(a);
                 a++;
-            } while (a < 10);
+            } while (a < 4);
+            */
+
+            Console.WriteLine("Hello, programmer");
+            Console.WriteLine("Enter your first number:");
+            int fN = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter your last number:");
+            int lN = Convert.ToInt32(Console.ReadLine());
             
-        
+
+            for (int i = fN; i <= (lN-i); i++) {
+                
+                if (i < lN)
+                {
+                    Console.WriteLine(i+(i-1));
+
+                }
+
+            }
+
+
+
+
+
+
+            /*Console.WriteLine("Hello, programmer");
+            Console.WriteLine("Enter your number:");
+            int N = Convert.ToInt32(Console.ReadLine());
+             for (int i = N; i <= 1; i--)
+            {
+                i = N!;
+                Console.Write(i);
+            }*/
+
+
+
+
 
 
 
