@@ -26,18 +26,14 @@
                 Console.Write("*"); // to print *****
             }*/
 
-            // While Loop
-            int a = 2;
-            while (a > 1)
+            //Do - While Loop
+            int a = 1;
+            do
             {
                 Console.WriteLine(a);
                 a++;
-                if (a == 20)
-                {
-                    break;
-                }
-               
-            }
+            } while (a < 10);
+            
         
 
 
