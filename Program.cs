@@ -11,7 +11,7 @@
             }
             Console.WriteLine("");*/
 
-            for (int i = 1; i <= 5; i++) // Star Square
+            /*for (int i = 1; i <= 5; i++) // Star Square
             {
                 Console.Write("*"); // to print *****
             }
@@ -24,8 +24,20 @@
             for (int i = 1; i <= 5; i++)
             {
                 Console.Write("*"); // to print *****
-            }
+            }*/
 
+            // While Loop
+            int a = 2;
+            while (a > 1)
+            {
+                Console.WriteLine(a);
+                a++;
+                if (a == 20)
+                {
+                    break;
+                }
+               
+            }
         
 
 
