@@ -4,14 +4,22 @@
     {
         static void Main(string[] args)    
         {
-            /*for (int i = 0; i < 10; i++)      //Loop test write 0 to 9
+            for (int i = 0; i < 10; i++)      //For Loop test write 0 to 9
             {
-                Console.WriteLine(i);
+                Console.Write("H");
                 
             }
-            Console.WriteLine("");*/
+            Console.WriteLine("");
 
-            // test Star pattern part 1
+
+
+
+
+
+
+
+
+            /*// test Star pattern part 1
             //*
             //**
             //***
@@ -29,7 +37,7 @@
                 //Part 2  
                 if (i == 6)
                 {
-                    //Console.WriteLine("GOOD");
+                    //Console.WriteLine("Test");
 
                     for (i = 6; i >= 1; --i)
                     {
@@ -51,7 +59,7 @@
                 }
 
 
-            }
+            }*/
 
         }
     }
