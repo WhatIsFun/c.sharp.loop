@@ -2,14 +2,31 @@
 {
     internal class Program
     {
-        static void Main(string[] args)    
+        static void Main(string[] args)
         {
-            for (int i = 0; i < 10; i++)      //For Loop test write 0 to 9
+            /*for (int i = 0; i < 10; i++)      //For Loop test write 0 to 9
             {
                 Console.Write("H");
                 
             }
-            Console.WriteLine("");
+            Console.WriteLine("");*/
+
+            for (int i = 1; i <= 5; i++) // Star Square
+            {
+                Console.Write("*"); // to print *****
+            }
+            Console.WriteLine();
+            for (int i = 1; i <= 3; i++)
+            {
+                Console.WriteLine("*   *"); // to print *    *
+            }
+
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.Write("*"); // to print *****
+            }
+
+        
 
 
 
@@ -25,7 +42,7 @@
             //***
             //****
             //*****
-            
+
             for (int i = 1; i <= 6; ++i)
             {
                 for (int j = 1; j <= i; ++j)
