@@ -62,7 +62,7 @@ for (int i = fN; i <= (lN - i); i++)
 
 
 
-Console.WriteLine("Hello, programmer");
+/*Console.WriteLine("Hello, programmer");
 Console.WriteLine("Enter your number:");
 int i, factorial = 1;
 int N = Convert.ToInt32(Console.ReadLine());
@@ -72,7 +72,7 @@ for (i = 1; i <= N; i++)
 
     //Console.Write(i);
 }
-Console.WriteLine(" factorial of " + N + " is " + factorial);
+Console.WriteLine(" factorial of " + N + " is " + factorial);*/
 
 
 
@@ -119,7 +119,7 @@ for (int i = 1; i <= 6; ++i)
 
 }*/
 
-/*Console.WriteLine("Welcome to sum program"); // Sum 
+Console.WriteLine("Welcome to sum program"); // Sum the numbers from n to 1
 Console.WriteLine("Enter your number:");
 int n = Convert.ToInt32(Console.ReadLine());
             int sum = 0;
@@ -127,7 +127,7 @@ int n = Convert.ToInt32(Console.ReadLine());
             {
                 sum += i;
             }
-            Console.WriteLine("Sum of the first number "+ n +" is " + sum);*/
+            Console.WriteLine("Sum of the first number "+ n +" is " + sum);
 
 }
 }
