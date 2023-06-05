@@ -74,7 +74,7 @@ for (i = 1; i <= N; i++)
 }
 Console.WriteLine(" factorial of " + N + " is " + factorial);*/
 
-
+//jhghg
 
 
 /*// test Star pattern part 1
